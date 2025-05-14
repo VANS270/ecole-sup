@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>DIPLOMEO </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+             
+          <nav  class="un">
+            <a href="index.html" class="logo">
+                <!-- ici j'insere le logo de mon site qui est egalement le lien vers ma page d'accueil -->
+                <img src="logo-diplomeo.png" alt="logo de diplomeo" width="70" height="70" style="border-radius: 10px;">
+            </a>
+                        <!-- LES LIENS VERS  formations, metier, etablissement et actualités -->
+            <a href="formation.html" class="lien1">Formation 
+                <section class="menu_formation">
+                    <div class="formation_filieres">
+                        <h3 style="color:rgba(189, 184, 184, 0.904)">PAR FILIÈRES</h3>
+                        <div class="commerce">
+                            <a href="" target="_blank" class="com">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6464c7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-cart-icon lucide-shopping-cart"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+                                COmmerce
+                            </a>
+                            
+                        </div>
+                        <div class="commerce">
+                            <a href="" target="_blank" class="com">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6464c7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cable-icon lucide-cable"><path d="M17 21v-2a1 1 0 0 1-1-1v-1a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1"/><path d="M19 15V6.5a1 1 0 0 0-7 0v11a1 1 0 0 1-7 0V9"/><path d="M21 21v-2h-4"/><path d="M3 5h4V3"/><path d="M7 5a1 1 0 0 1 1 1v1a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a1 1 0 0 1 1-1V3"/></svg>
+                                Informatique
+                            </a>
+                            
+                        </div>
+                        <div class="commerce">
+                            <a href="" target="_blank" class="com">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6464c7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-hand-coins-icon lucide-hand-coins"><path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17"/><path d="m7 21 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9"/><path d="m2 16 6 6"/><circle cx="16" cy="9" r="2.9"/><circle cx="6" cy="5" r="3"/></svg>
+                                Finance & Comptabilité
+                            </a>
+                            
+                        </div>
+                        <div class="commerce">
+                            <a href="" target="_blank" class="com">
+                                <svg fill="#6464c7" height="24px" width="24px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400.35 400.35" xml:space="preserve" stroke="#6464c7" stroke-width="0.00400346" transform="matrix(1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M141.12,116.801l-28.893-5.78c-1.461-1.67-3.259-3.016-5.258-3.959c2.273-2.542,4.2-5.109,5.667-7.234 c3.533-5.126,6.475-10.646,8.515-15.974c1.005-2.246,1.854-4.503,2.553-6.718c2.735-2.296,4.35-5.73,4.35-9.331v-8.819 c0-2.535-0.791-5.007-2.254-7.063V39.504C125.798,17.721,108.076,0,86.29,0H73.482C51.701,0,33.977,17.721,33.977,39.504v12.421 c-1.46,2.055-2.258,4.527-2.258,7.06v8.819c0,3.601,1.611,7.027,4.354,9.329c0.696,2.21,1.549,4.473,2.555,6.723 c2.035,5.324,4.979,10.846,8.515,15.968c1.469,2.133,3.397,4.702,5.681,7.251c-1.994,0.946-3.778,2.289-5.236,3.951l-28.462,5.766 c-7.516,1.521-12.92,8.128-12.92,15.804v104.37c0,2.415,0.534,4.708,1.485,6.762v11.439c0,7.788,6.313,14.107,14.107,14.107 c2.841,0,5.488-0.849,7.7-2.296v108.045c0,13.986,11.34,25.323,25.326,25.323c13.98,0,25.317-11.337,25.317-25.323 c0,13.986,11.331,25.323,25.324,25.323c13.98,0,25.312-11.337,25.312-25.323V266.978c2.219,1.447,4.864,2.296,7.708,2.296 c7.793,0,14.103-6.319,14.103-14.107v-11.439c0.959-2.055,1.491-4.347,1.491-6.762V132.613 C154.078,124.928,148.651,118.307,141.12,116.801z M72.306,143.242c-0.106,1.032-0.834,1.897-1.839,2.176 c-0.226,0.064-0.451,0.093-0.679,0.093c-0.783,0-1.539-0.361-2.02-1.006l-7.119-9.44c-0.329-0.438-0.509-0.976-0.509-1.526 l0.008-15.127c0.002-0.89,0.467-1.711,1.229-2.172c0.758-0.458,1.703-0.482,2.489-0.069c2.069,1.098,4.14,1.833,6.147,2.188 c1.205,0.217,2.086,1.269,2.086,2.494v6.312c0.365,0.146,0.691,0.367,0.957,0.661c0.48,0.535,0.713,1.244,0.639,1.955 L72.306,143.242z M99.113,135.064l-7.104,9.432c-0.487,0.645-1.239,1.013-2.021,1.013c-0.227,0-0.458-0.033-0.685-0.093 c-1.002-0.28-1.731-1.145-1.837-2.182l-1.384-13.455c-0.074-0.711,0.155-1.42,0.634-1.955c0.264-0.294,0.592-0.515,0.959-0.661 v-6.312c0-1.226,0.882-2.277,2.089-2.494c2.001-0.354,4.069-1.089,6.143-2.186c0.788-0.411,1.731-0.388,2.489,0.069 c0.765,0.459,1.225,1.282,1.225,2.172l0.001,15.129C99.621,134.091,99.444,134.627,99.113,135.064z M101.687,91.963 c-6.191,8.98-11.99,13.001-15,13.001H73.084c-3.006,0-8.811-4.021-15.002-13.001c-4.885-7.088-8.284-14.929-9.081-20.982 l-0.14-1.048l-2.456-1.596c-0.72-0.468-1.153-1.264-1.153-2.125v-4.164c0-1.4,1.134-2.534,2.533-2.534h1.031v-4.517 c0-0.961,0.544-1.836,1.401-2.266c3.488-1.737,10.407-4.66,17.571-4.66c5.71,0,10.45,1.902,14.082,5.651 c4.521,4.678,9.741,7.048,15.494,7.048c3.268,0,6.634-0.77,10.02-2.289c0.783-0.351,1.69-0.282,2.415,0.185 c0.338,0.219,0.606,0.509,0.808,0.848h1.381c1.399,0,2.535,1.134,2.535,2.534v4.165c0,0.86-0.437,1.656-1.153,2.124l-2.455,1.596 l-0.142,1.048C109.974,77.032,106.575,84.875,101.687,91.963z"></path> <path d="M279.332,166.061l-17.932-15.38l20.228,111.079h3.164l21.724-110.544l-17.305,14.844 C286.369,168.499,282.173,168.498,279.332,166.061z"></path> <path d="M284.141,37.202c-60.655,0-110,48.728-110,108.622c0,29.717,12.268,62.055,32.833,86.58 c0.241,0.345,0.546,0.77,0.884,1.187c6.371,7.862,15.025,21.844,18.176,31.824c-1.948,2.628-3.115,5.868-3.115,9.383 c0,3.216,0.971,6.21,2.629,8.709c-1.659,2.499-2.629,5.493-2.629,8.709c0,5.266,2.598,9.925,6.569,12.799v24.338 c0,13.1,10.654,23.757,23.748,23.757h4.634l1.571,1.807c4.504,5.228,11.054,8.225,17.969,8.225h13.473 c6.872,0,13.406-2.981,17.924-8.179l1.613-1.853h4.646c13.073,0,23.709-10.657,23.709-23.757V305.03 c3.983-2.872,6.589-7.539,6.589-12.813c0-3.216-0.971-6.21-2.629-8.709c1.659-2.499,2.629-5.493,2.629-8.709 c0-3.388-1.081-6.522-2.903-9.098c2.871-9.393,10.784-22.858,18.272-32.126c0.751-0.925,1.431-1.913,2.031-2.947 c19.658-24.355,31.378-56.004,31.378-84.803C394.141,85.93,344.795,37.202,284.141,37.202z M313.24,327.558h-11.008 c-2.197,0-4.287,0.953-5.728,2.612l-6.467,7.449h-11.803l-6.454-7.444c-1.441-1.663-3.532-2.617-5.732-2.617h-11.027v-19.537 h58.218V327.558z M325.62,132.681L298.476,270.81c-0.699,3.558-3.818,6.124-7.444,6.124h-15.732c-3.665,0-6.807-2.621-7.464-6.228 l-25.194-138.348c-0.575-3.16,0.902-6.34,3.688-7.939c2.787-1.598,6.276-1.27,8.714,0.822l29.227,25.067l28.966-24.848 c2.452-2.104,5.968-2.424,8.761-0.795C324.789,126.293,326.244,129.51,325.62,132.681z"></path> </g> </g></svg>
+                                Management
+                            </a>
+                            
+                            
+                        </div>
+                        <div class="commerce">
+                            <a href="" target="_blank" class="com">
+                                <svg fill="#6464c7" height="24px" width="24px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 495.485 495.485" xml:space="preserve" stroke="#6464c7"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="XMLID_158_"> <path id="XMLID_162_" d="M387.998,105.937h-17.765c-22.969,0-41.605,18.629-41.605,41.605v3.052l52.523-37.304 c0.048-0.034,0.109-0.04,0.159-0.074c-0.05,0.04-0.099,0.049-0.142,0.088l-69.363,63.773l-71.121,30.29 c-10.505,4.464-15.397,16.605-10.93,27.108c3.359,7.862,10.997,12.578,19.036,12.578c2.7,0,5.444-0.534,8.073-1.664l74.398-31.676 c2.18-0.921,4.164-2.205,5.896-3.804l71.973-66.187c0.061-0.055,0.08-0.138,0.142-0.193c-0.061,0.064-0.08,0.144-0.13,0.209 L345.55,219.04c-1.841,2.179-4.081,3.803-6.539,4.859l-2.891,1.228l-7.492,3.187l0.031,242.372c0,13.698,11.112,24.8,24.8,24.8 c5.653,0,10.819-1.971,14.98-5.167c-3.18-5.861-5.164-12.48-5.164-19.633V322.901h16.536v147.784c0,13.698,11.107,24.8,24.8,24.8 c13.688,0,24.793-11.102,24.793-24.8c0,0,0.196-208.497,0.196-323.144C429.601,124.566,410.971,105.937,387.998,105.937z"></path> <path id="XMLID_161_" d="M379.13,96.635c26.704,0,48.323-21.625,48.323-48.313C427.454,21.625,405.835,0,379.13,0 c-26.684,0-48.321,21.625-48.321,48.322C330.809,75.01,352.447,96.635,379.13,96.635z"></path> <path id="XMLID_160_" d="M116.355,96.635c26.685,0,48.323-21.625,48.323-48.313C164.678,21.625,143.04,0,116.355,0 C89.653,0,68.034,21.625,68.034,48.322C68.034,75.01,89.653,96.635,116.355,96.635z"></path> <path id="XMLID_159_" d="M177.092,173.825l-55.15-53.198l44.916,34.664v-7.749c0-22.976-18.636-41.605-41.605-41.605H107.49 c-22.977,0-41.605,18.629-41.605,41.605c0,118.313,0.196,323.144,0.196,323.144c0,13.698,11.107,24.8,24.793,24.8 c13.693,0,24.8-11.102,24.8-24.8V322.901h16.536v147.784c0,7.153-1.99,13.772-5.17,19.633c4.169,3.196,9.332,5.167,14.987,5.167 c13.686,0,24.8-11.102,24.8-24.8l0.031-242.66l-16.504-11.737l-5.275-3.748c-0.307-0.224-0.602-0.5-0.841-0.783l-51.005-61.376 l57.089,55.063c1.295,1.234,2.733,2.309,4.299,3.175l68.13,37.954c-1.714-2.194-3.243-4.559-4.391-7.238 c-5.734-13.475-1.743-28.505,8.682-37.675L177.092,173.825z"></path> </g> </g></svg>
+                                Ressources humaines
+                            </a>
+                            
+                            
+                        </div>
+                        <div class="commerce">
+                            <a href="" target="_blank" class="com">
+                                <svg width="24px" height="24px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#6464c7" stroke="#6464c7"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="icomoon-ignore"> </g> <path d="M26.995 12.046h4.258l-15.457-9.152-15.049 9.152h3.857v15.994h-2.132v1.066h26.656v-1.066h-2.133v-15.994zM4.553 10.98l11.25-6.842 11.556 6.842h-22.807zM5.67 28.040v-15.994h3.199v15.994h-3.199zM9.935 28.040v-15.994h3.199v15.994h-3.199zM14.2 28.040v-15.994h3.199v15.994h-3.199zM18.465 28.040v-15.994h3.199v15.994h-3.199zM22.73 28.040v-15.994h3.199v15.994h-3.199z" fill="#000000"> </path> </g></svg>
+                                Art &culture
+                            </a>
+                            
+                            
+                        </div>
+                        <div class="commerce">
+                            <a href="" target="_blank" class="com">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6464c7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-volume2-icon lucide-volume-2"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"/><path d="M16 9a5 5 0 0 1 0 6"/><path d="M19.364 18.364a9 9 0 0 0 0-12.728"/></svg>
+                                Communication
+                            </a>
+                            
+                        </div>
+                        <div class="commerce">
+                            <a href="" target="_blank" class="com">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6464c7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart-pulse-icon lucide-heart-pulse"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/><path d="M3.22 12H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27"/></svg>
+                                Santé
+                            </a>
+                           
+                        </div>
+                        
+                    </div>
+                    <!-- par diplome -->
+                    <div class="formation_filieres">
+                        <h3 style="color:rgba(189, 184, 184, 0.904)">PAR FILIÈRES</h3>
+                        
+                           <div class="dip_form">
+                            <a href="" target="_blank">Bac pro</a>
+        
+                            </div>
+                            <div class="dip_form">
+                                <a href="" target="_blank">CAP</a>
+            
+                            </div>
+                            <div class="dip_form">
+                                <a href="" target="_blank">BTS</a>
+            
+                            </div>
+                            <div class="dip_form">
+                                <a href="" target="_blank">BUT</a>
+            
+                            </div>
+                            <div class="dip_form">
+                                <a href="" target="_blank">Prépa</a>
+            
+                            </div>
+                            <div class="dip_form">
+                                <a href="" target="_blank">Bachelor</a>
+            
+                            </div>
+                            <div class="dip_form">
+                                <a href="" target="_blank">Licence</a>
+            
+                            </div>
+                            <div class="dip_form">
+                                <a href="" target="_blank">Licence Pro</a>
+            
+                            </div>
+                            <div class="dip_form">
+                                <a href="" target="_blank">Master</a>
+            
+                            </div>
+                    </div>
+                    <!-- par villes -->
+                    <div class="par_ville">
+                        <h3 style="color:rgba(189, 184, 184, 0.904)">PAR VILLES</h3><br>
+                        <div class="bloc_form">
+                            <div class="grid_form1">
+                                <!-- pour la premiere ville -->
+                                <a href="" style="color: white; display:flex;flex-direction: column ; align-items: flex-start;">
+                                    <img src="formation/lille.jpg"  width="400" height="160" style="border-radius: 10px; ">
+                                    <span style="position: relative; bottom: 22px; left: 5px;">LILLE</span>
+                                </a>
+                            </div>
+                            <div class="grid_form2">
+                                <!-- pour la deuxieme ville -->
+                                <a href="" style="color: white; display:flex;flex-direction: column ; align-items: flex-start;">
+                                    <img src="formation/lyon.jpg"  width="200" height="160" style="border-radius: 10px; ">
+                                    <span style="position: relative; bottom: 22px; left: 5px;">Rennes</span>
+                                </a>
+                            </div>
+                            <div class="grid_form3">
+                                <!-- pour la troisieme ville -->
+                                <a href="" style="color: white; display:flex;flex-direction: column ; align-items: flex-start;">
+                                <img src="formation/rennes.jpg" width="200" height="160" style="border-radius: 10px; ">
+                                    
+                                    <span style="position: relative; bottom: 22px; left: 5px;">LYON</span>
+                                </a>
+                            </div>
+                        </div>
+                       
+                        
+                       
+                    </div>
+                    <!-- fin de la section formation -->
+                </section>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down-icon lucide-chevron-down"><path d="m6 9 6 6 6-6"/></svg></a>
+            
+            <a href="Metier.html" class="lien2">Métier <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down-icon lucide-chevron-down"><path d="m6 9 6 6 6-6"/></svg></a>
+                <section class="menu_metier">
+                    <div class="formation_filieres">
+                        <h3 style="color:rgba(189, 184, 184, 0.904)">PAR FILIÈRES</h3>
+                        
+                           <div class="dip_form">
+                            <a href="" target="_blank">Bac pro</a>
+        
+                            </div>
+                            <div class="dip_form">
+                                <a href="" target="_blank">CAP</a>
+            
+                            </div>
+                            <div class="dip_form">
+                                <a href="" target="_blank">BTS</a>
+            
+                            </div>
+                            <div class="dip_form">
+                                <a href="" target="_blank">BUT</a>
+            
+                            </div>
+                            <div class="dip_form">
+                                <a href="" target="_blank">Prépa</a>
+            
+                            </div>
+                            <div class="dip_form">
+                                <a href="" target="_blank">Bachelor</a>
+            
+                            </div>
+                            <div class="dip_form">
+                                <a href="" target="_blank">Licence</a>
+            
+                            </div>
+                            <div class="dip_form">
+                                <a href="" target="_blank">Licence Pro</a>
+            
+                            </div>
+                            <div class="dip_form">
+                                <a href="" target="_blank">Master</a>
+            
+                            </div>
+                    </div>
+                    <div class="metier_recherche">
+                        <h3 style="color:rgba(189, 184, 184, 0.904)">PAR FILIÈRES</h3>
+                        <div class="flex_metier">
+                            <div class="architecture">
+                                <img src="metier/architecture.jpg" width="250" height="260" style="border-radius: 20px;">
+                                <span style="border-radius: 16px;text-align: center; background-color: white; position: relative; bottom:16px; padding: 4px; bottom: 20px; ">Architecture</span>
+                            </div>
+                            <div class="architecture">
+                                <img src="metier/architecture.jpg" width="250" height="260" style="border-radius: 20px;  ">
+                                <span style="border-radius: 16px;text-align: center; background-color: white;position: relative; bottom:16px; padding: 4px; bottom: 20px; ">Architecture</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+            <a href="etablissement.html" class="lien3">Etablissement <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down-icon lucide-chevron-down"><path d="m6 9 6 6 6-6"/></svg></a>
+            <a href="actualités.html" class="lien4">Actualités <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down-icon lucide-chevron-down"><path d="m6 9 6 6 6-6"/></svg></a>
+          </nav>
+          <nav class="deux">
+            <!-- ici c'est le lien pour Réferencermon etablissement -->
+            <a href="#reference" class="ref">Réferencer son établissement</a>
+          </nav>
+        </header><hr>
+        <main>
+            <sectinon class="note_et_avis">
+             <div>
+                <p>
+                    <span style="font-weight: 600; " class="h1">Toutes les écoles pour<br>trouver la bonne</span> <br>
+                    <span style="color: rgb(167, 170, 172); font-size: large;">+ de 300 000 étudiants choisisent Diplomeo pour s'orienter chaque année</span><br>
+                </p>
+                <div  class="google">
+                    <a href="profil.html" style="align-items: center; display: flex;  gap: 5px;" class="ma_future_ecole">Trouver ma future école 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right-from-line-icon lucide-arrow-right-from-line" style="border-radius: 49% 51% 50% 50% / 50% 49% 51% 50%;"><path d="M3 5v14"/><path d="M21 12H7"/><path d="m15 18 6-6-6-6"/></svg>
+
+                    </a>
+                    <div class="star">
+                        <img src="acceuil/Google-Symbol.png" alt="logo gooogle" width="27" height="27">
+                        4.8/5
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        2676 avis
+
+                    </div>
+                </div>
+             </div>
+             <div>
+
+                <img src="acceuil/degree.jpg" alt="une image des etudiants" style="border-radius: 60% 40% 66% 34% / 26% 47% 53% 74% ; margin-top: 40%;  " width="400" height="400" >
+             </div>
+                
+             
+            </sectinon>
+            <section class="campus">
+             <p style="font-size: 50px; padding-left: 20%;">
+                    Découvres les campus
+             </p>
+             <div class="grid_ecole">
+                <div class="liste_ecole">
+                    <!-- ce bloc est pour l'école ESPI -->
+                    <div class="image_ecole">
+                        <img src="acceuil/espi.jpg" alt="un image des jeunes étudiants espi" style="border-radius: 15px; " width="280" height="200" class="image_princ">
+                        <img src="acceuil/espi_logo.png" alt="logo de espi" width="70" height="70" style="border-radius: 15px;" class="logo_ecole">
+                    </div>
+                 <p class="nom_ecole">
+                    <!-- Le paragraphe qui donne le nom de l'école avec les avis -->
+                    <h5 > Ecole Supérieure des Professions Immobilières - <br>ESPI PARIS</h3>
+                    <h5>PARIS</h5>
+                    <span style="color: rgb(167, 170, 172) ;">Ecole des métiers de l'immobilier</span><br>
+                    <div class="star">
+                        <!-- ce bloc parles des avis que les gens laissent -->
+                        <img src="acceuil/Google-Symbol.png" alt="logo gooogle" width="27" height="27">
+                        4.8
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <span style="text-decoration: underline;">(8)</span>
+
+                    </div>
+                 </p>
+                 <!-- ici je dois inserer un lien vers l'établissement -->
+                 <a href="https://groupe-espi.fr/" target="_blank" class="lien_ecole">voir l'établissement</a>
+                </div>
+
+
+                <div class="liste_ecole">
+                    <!-- Ce bloc est pour l'école ECEMA -->
+                    <div class="image_ecole">
+                        <img src="acceuil/ECEMA.jpg" alt="un image des jeunes étudiants ECEMA" style="border-radius: 15px; " width="280" height="200" class="image_princ">
+                        <img src="acceuil/LOGO_ecema.png" alt="logo de ECEMA" width="70" height="70" style="border-radius: 15px;" class="logo_ecole">
+                    </div>
+                 <p class="nom_ecole">
+                    <!-- Le paragraphe qui donne le nom de l'école avec les avis -->
+                    <h5 > Ecole De Commerce et de management <br>ECEMALYON</h3>
+                    <h5>LYON</h5>
+                    <span style="color: rgb(167, 170, 172) ;">Ecole de commerce</span><br>
+                    <div class="star">
+                        <!-- ce bloc parles des avis que les gens laissent -->
+                        <img src="acceuil/Google-Symbol.png" alt="logo gooogle" width="27" height="27">
+                        4.3
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <span style="text-decoration: underline;">(10)</span>
+                    </div>
+                 </p>
+                 <!-- ici je dois inserer un lien vers l'établissement -->
+                 <a href="https://www.ecema.fr/ecole-commerce-management/lyon/" target="_blank" class="lien_ecole">voir l'établissement</a>
+                </div>
+
+
+                <div class="liste_ecole">
+                    <!-- Ce bloc est pour l'école ECEMA -->
+                    <div class="image_ecole">
+                        <img src="acceuil/ECEMA.jpg" alt="un image des jeunes étudiants ECEMA" style="border-radius: 15px; " width="280" height="200" class="image_princ">
+                        <img src="acceuil/LOGO_ecema.png" alt="logo de ECEMA" width="70" height="70" style="border-radius: 15px;" class="logo_ecole">
+                    </div>
+                 <p class="nom_ecole">
+                    <!-- Le paragraphe qui donne le nom de l'école avec les avis -->
+                    <h5 > Clermont School Of Business /h3>
+                    <h5>CLERMONT</h5>
+                    <span style="color: rgb(167, 170, 172) ;">Ecole des gestions</span><br>
+                    <div class="star">
+                        <!-- ce bloc parles des avis que les gens laissent -->
+                        <img src="acceuil/Google-Symbol.png" alt="logo gooogle" width="27" height="27">
+                        4.3
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <span style="text-decoration: underline;">(10)</span>
+                    </div>
+                 </p>
+                 <!-- ici je dois inserer un lien vers l'établissement -->
+                 <a href="https://www.ecema.fr/ecole-commerce-management/lyon/" target="_blank" class="lien_ecole">voir l'établissement</a>
+                </div>
+
+
+                <div class="liste_ecole">
+                    <!-- Ce bloc est pour l'école ECEMA -->
+                    <div class="image_ecole">
+                        <img src="acceuil/ECEMA.jpg" alt="un image des jeunes étudiants ECEMA" style="border-radius: 15px; " width="280" height="200" class="image_princ">
+                        <img src="acceuil/LOGO_ecema.png" alt="logo de ECEMA" width="70" height="70" style="border-radius: 15px;" class="logo_ecole">
+                    </div>
+                 <p class="nom_ecole">
+                    <!-- Le paragraphe qui donne le nom de l'école avec les avis -->
+                    <h5 > Clermont School Of Business /h3>
+                    <h5>CLERMONT</h5>
+                    <span style="color: rgb(167, 170, 172) ;">Ecole des gestions</span><br>
+                    <div class="star">
+                        <!-- ce bloc parles des avis que les gens laissent -->
+                        <img src="acceuil/Google-Symbol.png" alt="logo gooogle" width="27" height="27">
+                        4.3
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <span style="text-decoration: underline;">(10)</span>
+                    </div>
+                 </p>
+                 <!-- ici je dois inserer un lien vers l'établissement -->
+                 <a href="https://www.ecema.fr/ecole-commerce-management/lyon/" target="_blank" class="lien_ecole">voir l'établissement</a>
+                </div>
+
+                <div class="liste_ecole">
+                    <!-- Ce bloc est pour l'école ECEMA -->
+                    <div class="image_ecole">
+                        <img src="acceuil/ECEMA.jpg" alt="un image des jeunes étudiants ECEMA" style="border-radius: 15px; " width="280" height="200" class="image_princ">
+                        <img src="acceuil/LOGO_ecema.png" alt="logo de ECEMA" width="70" height="70" style="border-radius: 15px;" class="logo_ecole">
+                    </div>
+                 <p class="nom_ecole">
+                    <!-- Le paragraphe qui donne le nom de l'école avec les avis -->
+                    <h5 > Clermont School Of Business /h3>
+                    <h5>CLERMONT</h5>
+                    <span style="color: rgb(167, 170, 172) ;">Ecole des gestions</span><br>
+                    <div class="star">
+                        <!-- ce bloc parles des avis que les gens laissent -->
+                        <img src="acceuil/Google-Symbol.png" alt="logo gooogle" width="27" height="27">
+                        4.3
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <span style="text-decoration: underline;">(10)</span>
+                    </div>
+                 </p>
+                 <!-- ici je dois inserer un lien vers l'établissement -->
+                 <a href="https://www.ecema.fr/ecole-commerce-management/lyon/" target="_blank" class="lien_ecole">voir l'établissement</a>
+                </div>
+
+                <div class="liste_ecole">
+                    <!-- Ce bloc est pour l'école ECEMA -->
+                    <div class="image_ecole">
+                        <img src="acceuil/ECEMA.jpg" alt="un image des jeunes étudiants ECEMA" style="border-radius: 15px; " width="280" height="200" class="image_princ">
+                        <img src="acceuil/LOGO_ecema.png" alt="logo de ECEMA" width="70" height="70" style="border-radius: 15px;" class="logo_ecole">
+                    </div>
+                 <p class="nom_ecole">
+                    <!-- Le paragraphe qui donne le nom de l'école avec les avis -->
+                    <h5 > Clermont School Of Business /h3>
+                    <h5>CLERMONT</h5>
+                    <span style="color: rgb(167, 170, 172) ;">Ecole des gestions</span><br>
+                    <div class="star">
+                        <!-- ce bloc parles des avis que les gens laissent -->
+                        <img src="acceuil/Google-Symbol.png" alt="logo gooogle" width="27" height="27">
+                        4.3
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <span style="text-decoration: underline;">(10)</span>
+                    </div>
+                 </p>
+                 <!-- ici je dois inserer un lien vers l'établissement -->
+                 <a href="https://www.ecema.fr/ecole-commerce-management/lyon/" target="_blank" class="lien_ecole">voir l'établissement</a>
+                </div>
+
+                <div class="liste_ecole">
+                    <!-- Ce bloc est pour l'école ECEMA -->
+                    <div class="image_ecole">
+                        <img src="acceuil/ECEMA.jpg" alt="un image des jeunes étudiants ECEMA" style="border-radius: 15px; " width="280" height="200" class="image_princ">
+                        <img src="acceuil/LOGO_ecema.png" alt="logo de ECEMA" width="70" height="70" style="border-radius: 15px;" class="logo_ecole">
+                    </div>
+                 <p class="nom_ecole">
+                    <!-- Le paragraphe qui donne le nom de l'école avec les avis -->
+                    <h5 > Clermont School Of Business /h3>
+                    <h5>CLERMONT</h5>
+                    <span style="color: rgb(167, 170, 172) ;">Ecole des gestions</span><br>
+                    <div class="star">
+                        <!-- ce bloc parles des avis que les gens laissent -->
+                        <img src="acceuil/Google-Symbol.png" alt="logo gooogle" width="27" height="27">
+                        4.3
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <span style="text-decoration: underline;">(10)</span>
+                    </div>
+                 </p>
+                 <!-- ici je dois inserer un lien vers l'établissement -->
+                 <a href="https://www.ecema.fr/ecole-commerce-management/lyon/" target="_blank" class="lien_ecole">voir l'établissement</a>
+                </div>
+
+                <div class="liste_ecole">
+                    <!-- Ce bloc est pour l'école ECEMA -->
+                    <div class="image_ecole">
+                        <img src="acceuil/ECEMA.jpg" alt="un image des jeunes étudiants ECEMA" style="border-radius: 15px; " width="280" height="200" class="image_princ">
+                        <img src="acceuil/LOGO_ecema.png" alt="logo de ECEMA" width="70" height="70" style="border-radius: 15px;" class="logo_ecole">
+                    </div>
+                 <p class="nom_ecole">
+                    <!-- Le paragraphe qui donne le nom de l'école avec les avis -->
+                    <h5 > Clermont School Of Business /h3>
+                    <h5>CLERMONT</h5>
+                    <span style="color: rgb(167, 170, 172) ;">Ecole des gestions</span><br>
+                    <div class="star">
+                        <!-- ce bloc parles des avis que les gens laissent -->
+                        <img src="acceuil/Google-Symbol.png" alt="logo gooogle" width="27" height="27">
+                        4.3
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <span style="text-decoration: underline;">(10)</span>
+                    </div>
+                 </p>
+                 <!-- ici je dois inserer un lien vers l'établissement -->
+                 <a href="https://www.ecema.fr/ecole-commerce-management/lyon/" target="_blank" class="lien_ecole">voir l'établissement</a>
+                </div>
+
+                <div class="liste_ecole">
+                    <!-- Ce bloc est pour l'école ECEMA -->
+                    <div class="image_ecole">
+                        <img src="acceuil/ECEMA.jpg" alt="un image des jeunes étudiants ECEMA" style="border-radius: 15px; " width="280" height="200" class="image_princ">
+                        <img src="acceuil/LOGO_ecema.png" alt="logo de ECEMA" width="70" height="70" style="border-radius: 15px;" class="logo_ecole">
+                    </div>
+                 <p class="nom_ecole">
+                    <!-- Le paragraphe qui donne le nom de l'école avec les avis -->
+                    <h5 > Clermont School Of Business /h3>
+                    <h5>CLERMONT</h5>
+                    <span style="color: rgb(167, 170, 172) ;">Ecole des gestions</span><br>
+                    <div class="star">
+                        <!-- ce bloc parles des avis que les gens laissent -->
+                        <img src="acceuil/Google-Symbol.png" alt="logo gooogle" width="27" height="27">
+                        4.3
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <span style="text-decoration: underline;">(10)</span>
+                    </div>
+                 </p>
+                 <!-- ici je dois inserer un lien vers l'établissement -->
+                 <a href="https://www.ecema.fr/ecole-commerce-management/lyon/" target="_blank" class="lien_ecole">voir l'établissement</a>
+                </div>
+
+                <div class="liste_ecole">
+                    <!-- Ce bloc est pour l'école ECEMA -->
+                    <div class="image_ecole">
+                        <img src="acceuil/ECEMA.jpg" alt="un image des jeunes étudiants ECEMA" style="border-radius: 15px; " width="280" height="200" class="image_princ">
+                        <img src="acceuil/LOGO_ecema.png" alt="logo de ECEMA" width="70" height="70" style="border-radius: 15px;" class="logo_ecole">
+                    </div>
+                 <p class="nom_ecole">
+                    <!-- Le paragraphe qui donne le nom de l'école avec les avis -->
+                    <h5 > Clermont School Of Business /h3>
+                    <h5>CLERMONT</h5>
+                    <span style="color: rgb(167, 170, 172) ;">Ecole des gestions</span><br>
+                    <div class="star">
+                        <!-- ce bloc parles des avis que les gens laissent -->
+                        <img src="acceuil/Google-Symbol.png" alt="logo gooogle" width="27" height="27">
+                        4.3
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <span style="text-decoration: underline;">(10)</span>
+                    </div>
+                 </p>
+                 <!-- ici je dois inserer un lien vers l'établissement -->
+                 <a href="https://www.ecema.fr/ecole-commerce-management/lyon/" target="_blank" class="lien_ecole">voir l'établissement</a>
+                </div>
+
+                <div class="liste_ecole">
+                    <!-- Ce bloc est pour l'école ECEMA -->
+                    <div class="image_ecole">
+                        <img src="acceuil/ECEMA.jpg" alt="un image des jeunes étudiants ECEMA" style="border-radius: 15px; " width="280" height="200" class="image_princ">
+                        <img src="acceuil/LOGO_ecema.png" alt="logo de ECEMA" width="70" height="70" style="border-radius: 15px;" class="logo_ecole">
+                    </div>
+                 <p class="nom_ecole">
+                    <!-- Le paragraphe qui donne le nom de l'école avec les avis -->
+                    <h5 > Clermont School Of Business /h3>
+                    <h5>CLERMONT</h5>
+                    <span style="color: rgb(167, 170, 172) ;">Ecole des gestions</span><br>
+                    <div class="star">
+                        <!-- ce bloc parles des avis que les gens laissent -->
+                        <img src="acceuil/Google-Symbol.png" alt="logo gooogle" width="27" height="27">
+                        4.3
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <span style="text-decoration: underline;">(10)</span>
+                    </div>
+                 </p>
+                 <!-- ici je dois inserer un lien vers l'établissement -->
+                 <a href="https://www.ecema.fr/ecole-commerce-management/lyon/" target="_blank" class="lien_ecole">voir l'établissement</a>
+                </div>
+                <div class="liste_ecole">
+                    <!-- Ce bloc est pour l'école ECEMA -->
+                    <div class="image_ecole">
+                        <img src="acceuil/ECEMA.jpg" alt="un image des jeunes étudiants ECEMA" style="border-radius: 15px; " width="280" height="200" class="image_princ">
+                        <img src="acceuil/LOGO_ecema.png" alt="logo de ECEMA" width="70" height="70" style="border-radius: 15px;" class="logo_ecole">
+                    </div>
+                 <p class="nom_ecole">
+                    <!-- Le paragraphe qui donne le nom de l'école avec les avis -->
+                    <h5 > Clermont School Of Business /h3>
+                    <h5>CLERMONT</h5>
+                    <span style="color: rgb(167, 170, 172) ;">Ecole des gestions</span><br>
+                    <div class="star">
+                        <!-- ce bloc parles des avis que les gens laissent -->
+                        <img src="acceuil/Google-Symbol.png" alt="logo gooogle" width="27" height="27">
+                        4.3
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <span style="text-decoration: underline;">(10)</span>
+                    </div>
+                 </p>
+                 <!-- ici je dois inserer un lien vers l'établissement -->
+                 <a href="https://www.ecema.fr/ecole-commerce-management/lyon/" target="_blank" class="lien_ecole">voir l'établissement</a>
+                </div>
+
+                <div class="liste_ecole">
+                    <!-- Ce bloc est pour l'école ECEMA -->
+                    <div class="image_ecole">
+                        <img src="acceuil/ECEMA.jpg" alt="un image des jeunes étudiants ECEMA" style="border-radius: 15px; " width="280" height="200" class="image_princ">
+                        <img src="acceuil/LOGO_ecema.png" alt="logo de ECEMA" width="70" height="70" style="border-radius: 15px;" class="logo_ecole">
+                    </div>
+                 <p class="nom_ecole">
+                    <!-- Le paragraphe qui donne le nom de l'école avec les avis -->
+                    <h5 > Clermont School Of Business /h3>
+                    <h5>CLERMONT</h5>
+                    <span style="color: rgb(167, 170, 172) ;">Ecole des gestions</span><br>
+                    <div class="star">
+                        <!-- ce bloc parles des avis que les gens laissent -->
+                        <img src="acceuil/Google-Symbol.png" alt="logo gooogle" width="27" height="27">
+                        4.3
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <span style="text-decoration: underline;">(10)</span>
+                    </div>
+                 </p>
+                 <!-- ici je dois inserer un lien vers l'établissement -->
+                 <a href="https://www.ecema.fr/ecole-commerce-management/lyon/" target="_blank" class="lien_ecole">voir l'établissement</a>
+                </div>
+
+                <div class="liste_ecole">
+                    <!-- Ce bloc est pour l'école ECEMA -->
+                    <div class="image_ecole">
+                        <img src="acceuil/ECEMA.jpg" alt="un image des jeunes étudiants ECEMA" style="border-radius: 15px; " width="280" height="200" class="image_princ">
+                        <img src="acceuil/LOGO_ecema.png" alt="logo de ECEMA" width="70" height="70" style="border-radius: 15px;" class="logo_ecole">
+                    </div>
+                 <p class="nom_ecole">
+                    <!-- Le paragraphe qui donne le nom de l'école avec les avis -->
+                    <h5 > Clermont School Of Business /h3>
+                    <h5>CLERMONT</h5>
+                    <span style="color: rgb(167, 170, 172) ;">Ecole des gestions</span><br>
+                    <div class="star">
+                        <!-- ce bloc parles des avis que les gens laissent -->
+                        <img src="acceuil/Google-Symbol.png" alt="logo gooogle" width="27" height="27">
+                        4.3
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                        <span style="text-decoration: underline;">(10)</span>
+                    </div>
+                 </p>
+                 <!-- ici je dois inserer un lien vers l'établissement -->
+                 <a href="https://www.ecema.fr/ecole-commerce-management/lyon/" target="_blank" class="lien_ecole">voir l'établissement</a>
+                </div>
+             </div>         
+            </section>
+            <aside class="Diplome_recherche">
+                <h2 style="text-align: center;">Les diplômes des les plus recherchés</h2>
+                <div class="grid_diplome">
+                    <!-- ce grid contiendra tous les diplomes -->
+                    <div class="diplome">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;">BTS</a>
+                    </div>
+                    <div class="diplome">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;">BUT</a>
+                    </div>
+                    <div class="diplome">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;">BACHELOR</a>
+                    </div>
+                    <div class="diplome">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;">BAC PRO</a>
+                    </div>
+                    <div class="diplome">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;">LICENCE</a>
+                    </div>
+                    <div class="diplome">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;">LICENCE PRO</a>
+                    </div>
+                    <div class="diplome">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;">MASTER</a>
+                    </div>
+                    <div class="diplome">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;">PREPA</a>
+                    </div>
+                    <div class="diplome">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;">CAP</a>
+                    </div>
+                </div>
+                <div class="avis_etudiants">
+                    <!-- ici on parle des avis que les etudiants laissent sur DIPLOMEO -->
+                    <h2 style="text-align: center;">Les étudiants aiment le service Diplomeo</h2>
+                    <div class="bloc_avis">
+                     <div class="etud_avis">
+                         <p style="text-align: start; " class="p1" >
+                            <span style="font-size: 90px; ">"</span><br>
+                            J’ai été conseillée par Daynice. Une petite pépite 👌Super efficace dans le choix de la formation que je voulais. Super clair. Merci parce que j’étais vraiment perdue dans toutes les formations qui étaient proposées.
+                         </p>
+                         <div style="display: flex; flex-direction: row;
+                         align-items: center; justify-content: space-between;">
+                         <!-- les deux seront aux extrêmetités -->
+                         <div class="pp1" >
+                             <img src="acceuil/pp1.jpg" alt="la photto de prophil" width="30" height="30" style="border-radius: 30px;">
+                              <span style="font-size: smaller;">CHAIMA OUTABA</span> 
+                         </div>
+                        
+                         <div class="star">
+                                <img src="acceuil/Google-Symbol.png" alt="logo gooogle" width="27" height="27">
+                                4.8/5
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                         </div>
+                                             
+                     </div>
+                    </div>
+                     <!-- UN AUTRE AVIS D ETUDIANT -->
+                     <div class="etud_avis">
+                        <p style="text-align: start; " class="p1" >
+                            <span style="font-size: 90px; ">"</span><br>
+                            Le service de mise en relation est incroyablement rapide, efficace et à répondu à toute mes questions.
+                        </p>
+                        <div style="display: flex; flex-direction: row;
+                         align-items: center; justify-content: space-between;">
+                         <!-- les deux seront aux extrêmetités -->
+                         <div class="pp1" >
+                            <img src="acceuil/pp2.jpg" alt="la photto de prophil" width="30" height="30" style="border-radius: 30px;">
+                              <span style="font-size: smaller;">ORIANE</span> 
+                         </div>
+                        
+                         <div class="star">
+                                <img src="acceuil/Google-Symbol.png" alt="logo gooogle" width="27" height="27">
+                                4.8/5
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f2690d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star-icon lucide-star"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                         </div>
+                        </div>
+                  <!-- FIN DU BLOC DES AVIS ETUDIANTS -->
+                 </div>
+                 <!-- fin bloc-avis -->
+                </div>
+             <article>
+                    <!-- ici on parlera de l'actualité -->
+
+                 <h2 style="text-align: center;">Actualités de l'enseignement</h2> 
+                 <div class="bloc_pub">
+                      <a href="" style="display: flex; flex-direction: column; width:280px ; font-weight: 400; color: black; font-size: medium; gap: 5px;">
+                        <img src="acceuil/pub1.jpeg" alt="image de pub" width="280" height="180" style="border-radius: 15px;">
+                        BAC: quels trimestres comptent pour le contrôle continu?
+                      </a>
+                      <a href="" style="display: flex; flex-direction: column; width:280px ; font-weight: 400; color: black; font-size: medium; gap: 5px;">
+                        <img src="acceuil/pub2.jpeg" alt="image de pub" width="280" height="180" style="border-radius: 15px;">
+                        plan (filles et maths)  :8 mésures pour attirer les femmes vers les sciences
+                      </a>
+                      <a href="" style="display: flex; flex-direction: column; width:280px ; font-weight: 400; color: black; font-size: medium; gap: 5px;">
+                        <img src="acceuil/pub3.jpeg" alt="image de pub" width="280" height="180" style="border-radius: 15px;">
+                        Quel salaire esperer après un bachelor marketing digital?
+                      </a>
+                      <a href="" style="display: flex; flex-direction: column; width:280px ; font-weight: 400; color: black; font-size: medium; gap: 5px;">
+                        <img src="acceuil/pub4.jpg" alt="image de pub" width="280" height="180" style="border-radius: 15px;">
+                        En alternance ou en full-time, deviens un acteur de la revolution digitale avec l'EFAP
+                      </a>
+                      <a href="" style="display: flex; flex-direction: column; width:280px ; font-weight: 400; color: black; font-size: medium; gap: 5px;">
+                        <img src="acceuil/pub5.jpg" alt="image de pub" width="280" height="180" style="border-radius: 15px;">
+                        plan (filles et maths)  :8 mésures pour attirer les femmes vers les sciences
+                      </a>
+                      <a href="" style="display: flex; flex-direction: column; width:280px ; font-weight: 400; color: black; font-size: medium; gap: 5px;">
+                        <img src="acceuil/pub6.jpg" alt="image de pub" width="280" height="180" style="border-radius: 15px;">
+                        plan (filles et maths)  :8 mésures pour attirer les femmes vers les sciences
+                      </a>
+
+                    <!-- FIN DU BLOC_PUB -->
+                 </div>
+                 <a href="" class="deux" style="margin-left: 60%;"> Toutes les actualités</a>
+                 
+             </article>
+             <div class="orientation">
+                <h2>Ne manque aucune info pour t'orienter</h2>
+                deux fois par mois, reçois une newsletter par mail avec l'actu et nos conseils sur l'orientation.<br><br>
+                <form action="" method="post">
+                    <div class="newsletter">
+                        <input type="email" name="mail" id="mail" placeholder="Ton email" size="40" class="mail"  required>
+                        <input type="submit" value="S'inscrire" class="submit" size="25">
+                    </div>
+                </form>
+                <p style="text-align: center;">
+                    En cliquant sur "s'inscrire",tu acceptes les <u>CGU</u> et tu déclares avoir lu la <br>
+                    <u> politique de protection des données </u> du site Diplomeo
+                </p>
+
+             </div>
+             <div class="recherches_bts">
+                <!-- debut  recherche bts -->
+                 <h2 style="text-align: center;">Les BTS les plus les recherchés</h2>
+                 <div class="blocBTS">
+                    <div class="BTS">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="BTS Mco">BTS Mco</a>
+                    </div>
+                    <div class="BTS">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="BTS Ndrc">BTS Ndrc</a>
+                    </div>
+                    <div class="BTS">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="BTS Sam">BTS Sam</a>
+                    </div>
+                    <div class="BTS">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="BTS Sio">BTS Sio</a>
+                    </div>
+                    <div class="BTS">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="BTS lorem">BTS</a>
+                    </div>
+                    <div class="BTS">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="BTS">BTS</a>
+                    </div>
+                    <div class="BTS">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="BTS">BTS</a>
+                    </div>
+                    <div class="BTS">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="BTS Design">BTS Design</a>
+                    </div>
+                    <div class="BTS">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="BTS">BTS</a>
+                    </div>
+                    <div class="BTS">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="BTS">BTS</a>
+                    </div>
+                    <div class="BTS">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="BTS">BTS</a>
+                    </div>
+                    <div class="BTS">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="BTS">BTS</a>
+                    </div>
+                    <div class="BTS">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="BTS">BTS</a>
+                    </div>
+                    <div class="BTS">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="BTS">BTS</a>
+                    </div>
+                    <div class="BTS">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="BTS">BTS</a>
+                    </div>
+                    <div class="BTS">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="BTS">BTS</a>
+                    </div>
+                    <div class="BTS">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="BTS">BTS</a>
+                    </div>
+                    <div class="BTS">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="BTS">BTS</a>
+                    </div>
+                    <div class="BTS">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="BTS">BTS</a>
+                    </div>
+                    <div class="BTS">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="BTS">BTS</a>
+                    </div>
+                    <div class="BTS">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="BTS">BTS</a>
+                    </div>
+                    <div class="BTS">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="BTS">BTS</a>
+                    </div>
+                    <div class="BTS">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="BTS">BTS</a>
+                    </div>
+                    <div class="BTS">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="BTS">BTS</a>
+                    </div>
+                    <div class="BTS">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="BTS">BTS</a>
+                    </div>
+                    <div class="BTS">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="BTS">BTS</a>
+                    </div>
+                    <div class="BTS">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="BTS">BTS</a>
+                    </div>
+                    <div class="BTS">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="BTS">BTS</a>
+                    </div>
+                    <div class="BTS">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="BTS">BTS</a>
+                    </div>
+                 </div>
+                 <a href="" class="deux" style="margin-left: 70%;"> Tous les BTS</a>
+
+                 <!-- fin recherches_bts -->
+             </div>
+             <div class="recherches_licence">
+                <!-- debut recherches licence -->
+                <h2 style="text-align: center;">Les licences les plus les recherchées</h2>
+
+                <div class="bloclic">
+                    <div class="licence">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="licence">licence</a>
+                    </div>
+                    <div class="licence">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="licence">licence</a>
+                    </div>
+                    <div class="licence">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="licence">licence</a>
+                    </div>
+                    <div class="licence">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="licence">licence</a>
+                    </div>
+                    <div class="licence">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="licence">licence</a>
+                    </div>
+                    <div class="licence">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="licence">licence</a>
+                    </div>
+                    <div class="licence">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="licence">licence</a>
+                    </div>
+                    <div class="licence">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="licence">licence</a>
+                    </div>
+                    <div class="licence">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="licence">licence</a>
+                    </div>
+                    <div class="licence">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="licence">licence</a>
+                    </div>
+                    <div class="licence">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="licence">licence</a>
+                    </div><div class="licence">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="licence">licence</a>
+                    </div>
+                    <div class="licence">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="licence">licence</a>
+                    </div>
+                    <div class="licence">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="licence">licence</a>
+                    </div>
+                    <div class="licence">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="licence">licence</a>
+                    </div>
+                    <div class="licence">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="licence">licence</a>
+                    </div>
+                    <div class="licence">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="licence">licence</a>
+                    </div>
+                    <div class="licence">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="licence">licence</a>
+                    </div>
+                    <div class="licence">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="licence">licence</a>
+                    </div>
+                    <div class="licence">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="licence">licence</a>
+                    </div>
+                    <div class="licence">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="licence">licence</a>
+                    </div>
+                    <div class="licence">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="licence">licence</a>
+                    </div>
+                    <div class="licence">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="licence">licence</a>
+                    </div>
+                    <div class="licence">
+                        <!-- chaque case de diplome aura ces propriétés -->
+                        <a href="#" target="_blank" style="color: black;" title="licence">licence</a>
+                    </div>
+                                    
+                    <!-- fin du bloc licence -->
+                </div>
+                <a href="" class="deux" style="margin-left: 70%;"> Toutes les licences</a>
+                <!-- fin recherches licences -->
+             </div>
+            </aside>
+            <footer>
+                <section class="foot1">
+                    <!-- debut de la section1 du pied de page -->
+                     <div class="propos">
+                        <h3>À propos</h3>
+                        <a href="" style="font-size: small; font-weight: 50px;">Qui sommes-nous?</a><br>
+                        <a href="" style="font-size: small; font-weight: 50px;">Rejoignez-nous</a><br>
+                        <a href="" style="font-size: small; font-weight: 50px;">Mentions légales  -  CGU</a><br>
+                        <a href="" style="font-size: small; font-weight: 50px;">Gérer mes traceurs  -  PGPD</a><br>
+                        <!-- fin du bloc propos -->
+                     </div>
+                     <div class="propos">
+                        <h3>Accès direct</h3>
+                        <a href="" style="font-size: small; font-weight: 50px;">Diplomeo Avis</a><br>
+                        <a href="" style="font-size: small; font-weight: 50px;">Agenda des événements</a><br>
+                        <a href="" style="font-size: small; font-weight: 50px;">Liste des diplômes</a><br>
+                        <a href="" style="font-size: small; font-weight: 50px;">Résultats du bac</a><br>
+                        <!-- fin du bloc accès direct -->
+                     </div>
+                     <div class="propos">
+                        <h3>Etablissements</h3>
+                        <a href="" style="font-size: small; font-weight: 50px;">Accès établissement</a><br>
+                        <a href="" style="font-size: small; font-weight: 50px;">Référencer son établissement</a><br>
+                        
+                        <!-- fin du bloc Etablissement -->
+                     </div>
+                     <div class="propos">
+                        <h3>Connect</h3>
+                        <div class="social">
+                            <a href="">
+                                <!-- facebook -->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3614e1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook-icon lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                            </a>
+                            <a href="">
+                                <!-- twitter -->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3614e1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter-icon lucide-twitter"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+                            </a>
+                            <a href="">
+                                <!-- instagram -->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3614e1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                            </a>
+                            <a href="">
+                                <!-- linkedin -->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3614e1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin-icon lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                            </a>
+                        
+                        </div>
+                      <!-- fin du bloc propos -->
+                     </div>
+                    <!-- fin de la section1 du pied de page -->
+                </section>
+                <!-- le bloc ci dessous sera pour afficher tous les blocs qu'on aura lorsqu'on survolera sur les menus (formation metiers etc) -->
+                 
+                <section class="foot2">
+                    <!-- debut de la section2 du pied de page -->
+                        <div class="fr">
+                        <strong>Média et pro: </strong> Blog du Modérateur
+                        Bretagne Magazine |
+                        Bretagne Marchés Publics |
+                        Tourisme en Bretagne|
+                        Essence Moins Chère |
+                        Le Mensuel de Rennes | 
+                        Le Télégramme |
+                        Mer et Marine |
+                        Randonnée en Bretagne |
+                        Régions Annonces Légales |
+                        Diverto |
+                        Tous à la plage ! |
+                        Tébéo & Tébésud |
+                        
+                     </div>
+                     <br>
+                     <div class="fr">
+                     <strong>Sports:</strong>
+                        Foot Amateur Bretagne |
+                        La Solitaire du Figaro PARPEC |
+                        OC Sport Pen Duick |
+                        Route du Rhum - Destination Guadeloupe |
+                     </div>
+                     
+                </section>
+                <div  style="text-align: center; display: flex; align-items: center;gap: 5px; justify-content: center; margin-top: 40px;">
+                <img src="logo-diplomeo.png" alt="logo de diplomeo" width="40" height="40" style="border-radius: 10px;">
+                 
+                  © 2025 AMBELA VALENTIN
+                </div>
+            </footer>
+
+        </main>
+    </body>
+</html>
